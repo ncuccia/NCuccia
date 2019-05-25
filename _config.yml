@@ -23,28 +23,26 @@ github_username:  ncuccia
 # googleplus_username: +jekyll
 
 # About Section
-about_title: 'That Guy'
+about_title: '<mark>The Goggle Rock-Star Physicist</mark><a href="#bottom">*</a>'
 about_profile_image: files/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+    I am an allround physicist. That means I love just about any problem which is weird, confusing, and difficult.  Particularly, I find structured disorder fascinating, not just because it is a contradiction in terms, and my research (and life) tends to embody these principles.
+    
+    From my experiences in the CS world, my preference is to automate everything (even my experiments).  The hot buzzword these days, of course, is machine learning.  My contribution to all the buzz is in trying to bring together the distant communities of machine learning with those of physics. 
+    
+    My past is in the Coca-Cola haven that is Emory University, and my future is studying the crumpling of Coca-Cola cans at Harvard University.
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+projects_title: <mark>Projects</mark> #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+experience_title: <mark>Experience</mark> #(Use this to override about experience section title)
 
 # Education Section
-# education_title: Education #(Use this to override about education section title)
+education_title: <mark>Education</mark> #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: <mark>A Little More About Me</mark> #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
     When I’m not at my desk, I am very active and spend most of my time outdoors. My remedy of choice is biking, rock climbing and hiking. Otherwise, I like goofing around like any other grad student who is looking to procrastinate.
 

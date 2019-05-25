@@ -1,9 +1,12 @@
 <div class="container footer-container">
-  <p>
+  <p id = "bottom">
     {{ site.name | escape }} -
     <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
     {%- if site.footer_show_references -%}
       &nbsp;- References on request
     {%- endif -%}
+  </p>
+  <p>
+  *The origin of my title as the <mark>Goggle Rock-Star Physicist</mark> comes from a terribly misspelled email my advisor sent me congratulating us on our receiving of <a href="https://ai.google/research/outreach/faculty-research-awards/recipients/">Google's Faculty Research Award</a>.
   </p>
 </div>
