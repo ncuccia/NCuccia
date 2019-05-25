@@ -1,9 +1,32 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
+  name: Harvard University
+  dates: 2018 - Now
+  qualification: Doctoral Candidate in Applied Physics
   quote: >
-    Short institution or course description (optional)
+    A small community college north of Boston.
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    Currently, I am pursuing my graduate degree in Applied Physics.  My fields of interest are experimental nonlinear and soft condensed matter physics.  The ambitions of my thesis is to integrate machine learning tools into nonlinear systems so that we can better understand the underlying physics of these systems.
+
+- layout: left
+  name: Emory University
+  dates: 2013 - 2017
+  qualification: B.S. in Physics and B.S. in Computer Science with Highest Honors
+  quote: >
+    A school which has conflicting affinities for both patient health and Coca-Cola.
+  description: | # this will include new lines to allow paragraphs
+    Previously, I pursued an undergraduate degree in Physics and Computer Science.  My time at Emory involved an overly ambitious combination of academic and extracurricular activities.  
+    
+    Academic activities: 
+    
+    - [<mark>Dr. Justin Burton's Complex and Non-Equilibrium Systems Laboratory </mark>](https://www.jcburtonlab.com/)
+    - <mark> Emory's Dean's Achievement Scholarship</mark>
+    - [<mark>Emory Scholars Program </mark>](http://college.emory.edu/scholars/)
+    - [<mark>Summer Undergraduate Research Experience</mark>](http://college.emory.edu/undergraduate-research/summer-programs/natural-biomedical-sciences/index.html)
+    - [<mark>Phi Beta Kappa</mark>](https://www.pbk.org/)
+    - [<mark>Sigma Pi Sigma</mark>](https://www.sigmapisigma.org/sigmapisigma)
+        
+        
+    Extracurricular activities:
+    - President of Emory's Society of Physics Students
+    - Resident Advisor within Emory's Office of Residence Life

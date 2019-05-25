@@ -1,4 +1,4 @@
-<div class="container header-contianer">
+<div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
@@ -83,23 +83,40 @@
             </a>
           </li>
         {%- endif -%}
+		
+		{%- if site.email -%}
+		   <li>
+            <a target="_blank" href="mailto:{{ site.email }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-at" title="Email Me!"></i>
+            </a>
+          </li>
+		{%- endif -%}
+		
+		{%- if site.resume -%}
+		   <li>
+            <a target="_blank" href="mailto:{{ site.email }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-at" title="Email Me!"></i>
+            </a>
+          </li>
+		{%- endif -%}
+		
+		{%- if site.website -%}
+			{% assign protocol = include.href | strip | slice: 0, 4 %}
+		   <li>
+            <a target="_blank"  href="{% if protocol != 'http' %}//{% endif %}{{ include.href }}"  class="button button--sacnite button--round-l">
+              <i class="fa fa-globe" title="My Website!"></i>
+            </a>
+          </li>
+      {%- endif -%}
       </ul>
 
-      {%- if site.email -%}
-        <p>
-          Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-        </p>
-      {%- endif -%}
+      
       {%- if site.phone -%}
         <p>
           Phone: {{ site.phone | escape }}
         </p>
       {%- endif -%}
-      {%- if site.website -%}
-        <p>
-          Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
-        </p>
-      {%- endif -%}
+	  
     </div>
   </div>
 </div>
